@@ -142,7 +142,7 @@ header .btn-mobile{
 }
 #about .container .box-title{
     width: 420px;
-    height: 40vh;
+    height: 50vh;
     margin-top: 20px;
     padding: 0 10px;
     box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
@@ -199,6 +199,10 @@ header .btn-mobile{
 #port .container input[type=radio]{
     display: none;
 }
+#port .container a{
+    position: absolute;
+    margin-right: 120px;
+} 
 #port .container .card{
     position: absolute;
     width: 40%;
@@ -223,8 +227,8 @@ header .btn-mobile{
 #port .container .card h1{
     position: absolute;
     z-index: 9;
-    color: #fff;
-    font-size: 6rem;
+    color: #2F4F4F;
+    font-size: 5rem;
     margin-top: 60px;
 }
 #port .container .card p{
@@ -235,18 +239,19 @@ header .btn-mobile{
     margin-top: 200px;
     text-align: justify;
 }
-#port .container .card button{
+#port .container .card button {
     position: absolute;
     z-index: 9;
-    margin-top: 400px;
+    margin-top: 425px;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
     color: #fff;
-    background: rgba(21,111,195,0.5);
+    background: #038CFF;
     text-transform: uppercase;
     cursor: pointer;
 }
+
 #port .container .cards{
     position: relative;
     width: 100%;
